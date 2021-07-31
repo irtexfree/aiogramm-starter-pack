@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+aiodns = "*"
+aiogram = "*"
+aiohttp = "*"
+async-timeout = "*"
+attrs = "*"
+Babel = "*"
+brotlipy = "*"
+cchardet = "*"
+certifi = "*"
+cffi = "*"
+chardet = "*"
+idna = "*"
+multidict = "*"
+pycares = "*"
+pycparser = "*"
+pytz = "*"
+typing-extensions = "*"
+ujson = "*"
+yarl = "*"
+python-i18n = {extras = ["yaml"], version = "*"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
